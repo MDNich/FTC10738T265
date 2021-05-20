@@ -1,0 +1,14 @@
+package org.sbs.bears.ftc.constants;
+
+public enum RingLaunchSetting {
+    AUTO_INITIAL_SHOT_GOAL,
+    AUTO_1_AND_4_RING_INTAKE_SHOT,
+    AUTO_4_SECOND_RING_SHOT,
+    AUTO_INITIAL_POWERSHOT,
+    TELEOP_PSHOT,
+    TELEOP_GOALSHOT,
+    PUSHER_ACTIVE,
+    PUSHER_INACTIVE,
+    LAUNCH_BAY_ACTIVE,
+    LAUNCH_BAY_INACTIVE
+}

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0e08b5f-e233-4a63-844c-b654e83108c7" name="Default Changelist" comment="add dennis stuff">
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/testing/StrafePShotTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/213aa93285860bca7a8f78a15d4f33ba/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/213aa93285860bca7a8f78a15d4f33ba/classes/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/com/qualcomm/ftcrobotcontroller/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/com/qualcomm/ftcrobotcontroller/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/testing/PIDshooterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/d62e4df7626a0683cf38c381c0f4f9524b39732c42866ac33bc9239592fb166e_3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/ArmAndGrabberController.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/ArmAndGrabberController.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonNew.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonNew.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonomousHandle.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonomousHandle.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonomousReferences.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonomousReferences.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonomousV3worksSortOf.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/AutonomousV3worksSortOf.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/Trajectories.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/Trajectories.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/Trajectories2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/autonomous/Trajectories2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/DriveConstants.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/DriveConstants.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/DriveConstantsNoOdom.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/DriveConstantsNoOdom.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive$Mode.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive$Mode.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDrive.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom$Mode.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom$Mode.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/SampleMecanumDriveNoOdom.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/StandardTrackingWheelLocalizer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/StandardTrackingWheelLocalizer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/StandardTrackingWheelLocalizerIMU.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/StandardTrackingWheelLocalizerIMU.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/AutomaticFeedforwardTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/AutomaticFeedforwardTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/BackAndForth.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/BackAndForth.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/BackAndForthLineToSpline.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/BackAndForthLineToSpline.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/BackAndForthLineToSplineTriangle.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/BackAndForthLineToSplineTriangle.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/DriveVelocityPIDTuner$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/DriveVelocityPIDTuner$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/DriveVelocityPIDTuner$Mode.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/DriveVelocityPIDTuner$Mode.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/DriveVelocityPIDTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/DriveVelocityPIDTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/FollowerPIDTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/FollowerPIDTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/LocalizationTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/LocalizationTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/ManualFeedforwardTuner$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/ManualFeedforwardTuner$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/ManualFeedforwardTuner$Mode.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/ManualFeedforwardTuner$Mode.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/ManualFeedforwardTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/ManualFeedforwardTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/MaxAngularVeloTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/MaxAngularVeloTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/MaxVelocityTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/MaxVelocityTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/MotorDirectionDebugger.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/MotorDirectionDebugger.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/SplineTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/SplineTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/StrafeTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/StrafeTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/StraightTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/StraightTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TrackWidthTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TrackWidthTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TrackingWheelForwardOffsetTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TrackingWheelForwardOffsetTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TrackingWheelLateralDistanceTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TrackingWheelLateralDistanceTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TurnTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/drive/opmode/TurnTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$angleState.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$angleState.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$armStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$armStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$lJeffStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$lJeffStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$rJeffStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp$rJeffStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpComp.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$angleState.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$angleState.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$armStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$armStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$lJeffStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$lJeffStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$rJeffStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID$rJeffStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2noPID.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$angleState.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$angleState.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$armStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$armStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$lJeffStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$lJeffStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$rJeffStates.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night$rJeffStates.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/teleOp/TeleOpV2worked4222021night.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/BlockerTesting.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/BlockerTesting.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/PIDshooterController.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/PathTesting.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/PathTesting.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/ServoPositioningTool.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/ServoPositioningTool.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/ShooterRPMTesting.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/ShooterRPMTesting.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/TurnTesting.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/testing/TurnTesting.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/AssetsTrajectoryManager.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/AssetsTrajectoryManager.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/AxesSigns.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/AxesSigns.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/BNO055IMUUtil.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/BNO055IMUUtil.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/ConstantFile.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/ConstantFile.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/DashboardUtil.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/DashboardUtil.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/Encoder$Direction.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/Encoder$Direction.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/Encoder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/Encoder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LoggingUtil.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LoggingUtil.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LynxModuleUtil$LynxFirmwareVersion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LynxModuleUtil$LynxFirmwareVersion.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LynxModuleUtil$LynxFirmwareVersionException.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LynxModuleUtil$LynxFirmwareVersionException.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LynxModuleUtil.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/LynxModuleUtil.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RegressionUtil$AccelResult.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RegressionUtil$AccelResult.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RegressionUtil$RampResult.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RegressionUtil$RampResult.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RegressionUtil.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RegressionUtil.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RobotController.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RobotController.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RobotUtil.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/RobotUtil.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/Sleep.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/Sleep.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/VoltageCalculator.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/util/VoltageCalculator.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$CurrentDrawUnits.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$CurrentDrawUnits.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$I2cBusSpeed.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$I2cBusSpeed.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$TemperatureUnits.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$TemperatureUnits.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$VoltageUnits.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx$VoltageUnits.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubEx.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubMotor.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubMotor.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubServo.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/ExpansionHubServo.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RE2Exception.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RE2Exception.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevBulkData.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevBulkData.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevBulkDataException.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevBulkDataException.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevExtensions2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevExtensions2$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevExtensions2$OpModeNotifications.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevExtensions2$OpModeNotifications.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevExtensions2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/RevExtensions2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/Utils.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/Utils.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/VexMC29.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/openftc/revextensions2/VexMC29.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/outputs/apk/debug/TeamCode-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/outputs/apk/debug/TeamCode-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/sbs/bears/ftc/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/sbs/bears/ftc/robot/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/sbs/bears/ftc/robot/controller/BaseServoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/sbs/bears/ftc/robot/controller/BaseServoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/sbs/bears/ftc/robot/controller/RRDriveControllerNoOdom.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/sbs/bears/ftc/robot/controller/RRDriveControllerNoOdom.java" afterDir="false" />
+>>>>>>> Stashed changes
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rXplRuJRy63uspPIM4oX9JAmaT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.firstinspires.ftc.teamcode.drive.opmode" />
+      <recent name="org.firstinspires.ftc.teamcode.drive" />
+      <recent name="org.firstinspires.ftc.teamcode.autonomous" />
+      <recent name="org.firstinspires.ftc.teamcode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marcd\Documents\Robotics\FTC\FTC10738\TeamCode\src\main\java\org\firstinspires\ftc\teamcode" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamCode" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="FTC10738_marc.TeamCode" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0e08b5f-e233-4a63-844c-b654e83108c7" name="Default Changelist" comment="add dennis stuff" />
+      <created>1619132439624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619132439624</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add dennis stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dennis stuff" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1620244648943">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1620244648943" />
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1619731202319">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1619731202319" />
+    <state width="1460" height="122" key="GridCell.Tab.0.bottom" timestamp="1620159791939">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1460" height="122" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1620159791939" />
+    <state width="1460" height="122" key="GridCell.Tab.0.center" timestamp="1620159791938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1460" height="122" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1620159791938" />
+    <state width="1460" height="122" key="GridCell.Tab.0.left" timestamp="1620159791938">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1460" height="122" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1620159791938" />
+    <state width="1460" height="122" key="GridCell.Tab.0.right" timestamp="1620159791939">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="1460" height="122" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1620159791939" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1619729278616">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1619729278616" />
+  </component>
+</project>

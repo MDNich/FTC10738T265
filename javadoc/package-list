@@ -1,0 +1,16 @@
+org.firstinspires.ftc.teamcode
+org.firstinspires.ftc.teamcode.autonomous
+org.firstinspires.ftc.teamcode.drive
+org.firstinspires.ftc.teamcode.drive.opmode
+org.firstinspires.ftc.teamcode.newArchitecture.Autonomous
+org.firstinspires.ftc.teamcode.newArchitecture.TeleOp
+org.firstinspires.ftc.teamcode.teleOp
+org.firstinspires.ftc.teamcode.testing
+org.firstinspires.ftc.teamcode.util
+org.openftc.revextensions2
+org.sbs.bears.ftc.constants
+org.sbs.bears.ftc.exceptions
+org.sbs.bears.ftc.robot
+org.sbs.bears.ftc.robot.controller
+org.sbs.bears.ftc.robot.lib
+org.sbs.bears.ftc.util
