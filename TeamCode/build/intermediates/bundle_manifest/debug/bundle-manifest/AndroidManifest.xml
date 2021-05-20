@@ -11,36 +11,35 @@
     android:versionName="6.2" >
 
     <uses-sdk
-        android:minSdkVersion="23"
+        android:minSdkVersion="24"
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:required="true" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:required="true" />
-    <uses-permission
         android:name="android.permission.ACCESS_WIFI_STATE"
         android:required="true" />
     <uses-permission
-        android:name="android.permission.WRITE_SETTINGS"
-        android:required="true" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission
         android:name="android.permission.CHANGE_WIFI_STATE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
         android:required="true" />
     <uses-permission
         android:name="android.permission.CHANGE_NETWORK_STATE"
         android:required="true" />
     <uses-permission
         android:name="android.permission.INTERNET"
-        android:required="true" />
+        android:required="true" /> <!-- Classified as Dangerous Permission in SDK 26 -->
     <uses-permission
-        android:name="android.permission.ACCESS_NETWORK_STATE"
-        android:required="true" />
-    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- see AppUtil.setTimeZone() -->
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:required="true" /> <!-- Classified as Dangerous Permission in SDK 26 -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="true" /> <!-- Classified as System Permission in SDK 26 -->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        android:required="true" /> <!-- see AppUtil.setTimeZone() -->
     <uses-permission
         android:name="android.permission.SET_TIME_ZONE"
         android:required="true" />
@@ -82,6 +81,8 @@
     -->
     <uses-feature android:name="android.hardware.camera" />
 
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
     <application
         android:name="org.firstinspires.ftc.robotcore.internal.system.RobotApplication"
         android:allowBackup="true"
@@ -91,6 +92,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
+        android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppThemeRedRC"
         android:usesCleartextTraffic="true" > <!-- Indicates to the ControlHubUpdater what the latest version of the Control Hub is that this app supports -->
@@ -131,12 +133,43 @@
         <service
             android:name="com.qualcomm.ftccommon.FtcRobotControllerService"
             android:enabled="true" />
+        <!--
+    Needed to support sending logs from log viewer on Nougat and later.
+    Note: DON'T need to shift meta-data to 'androidx' from 'android.support.FILE_PROVIDER_PATHS'
+        -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.qualcomm.ftcrobotcontroller.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider> <!-- Service that keeps desktop folders up to date with respect to actual phone file system contents -->
+        <service
+            android:name="org.firstinspires.ftc.robotcore.internal.files.MediaTransferProtocolMonitorService"
+            android:enabled="true" />
 
-        <activity
-            android:name="org.firstinspires.ftc.ftccommon.internal.ProgramAndManageActivity"
-            android:configChanges="orientation|screenSize"
-            android:label="@string/program_and_manage_activity" >
-        </activity>
+        <meta-data
+            android:name="autoStartService.org.firstinspires.ftc.robotcore.internal.files.MediaTransferProtocolMonitorService"
+            android:value="BOTH|1000" /> <!-- Service that provides build services for OnBotJava -->
+        <service
+            android:name="org.firstinspires.ftc.onbotjava.OnBotJavaService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="autoStartService.org.firstinspires.ftc.onbotjava.OnBotJavaService"
+            android:value="RC|2000" />
+
+        <receiver
+            android:name="org.firstinspires.ftc.robotserver.internal.webserver.controlhubupdater.ChUpdaterCommManager$ChUpdaterBroadcastReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.revrobotics.controlhubupdater.broadcast.RESULT_BROADCAST" />
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name="com.qualcomm.ftccommon.FtcRobotControllerSettingsActivity"
             android:exported="true"
@@ -351,42 +384,23 @@
             android:configChanges="orientation|screenSize"
             android:label="@string/inspection_activity" >
         </activity>
-        <!--
-    Needed to support sending logs from log viewer on Nougat and later.
-    Note: DON'T need to shift meta-data to 'androidx' from 'android.support.FILE_PROVIDER_PATHS'
-        -->
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.qualcomm.ftcrobotcontroller.provider"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_provider_paths" />
-        </provider> <!-- Service that keeps desktop folders up to date with respect to actual phone file system contents -->
-        <service
-            android:name="org.firstinspires.ftc.robotcore.internal.files.MediaTransferProtocolMonitorService"
-            android:enabled="true" />
-
-        <meta-data
-            android:name="autoStartService.org.firstinspires.ftc.robotcore.internal.files.MediaTransferProtocolMonitorService"
-            android:value="BOTH|1000" /> <!-- Service that provides build services for OnBotJava -->
-        <service
-            android:name="org.firstinspires.ftc.onbotjava.OnBotJavaService"
-            android:enabled="true" />
-
-        <meta-data
-            android:name="autoStartService.org.firstinspires.ftc.onbotjava.OnBotJavaService"
-            android:value="RC|2000" />
-
-        <receiver
-            android:name="org.firstinspires.ftc.robotserver.internal.webserver.controlhubupdater.ChUpdaterCommManager$ChUpdaterBroadcastReceiver"
-            android:exported="true"
-            android:permission="android.permission.INSTALL_PACKAGES" >
+        <activity
+            android:name="org.firstinspires.ftc.ftccommon.internal.ProgramAndManageActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/program_and_manage_activity" >
+        </activity>
+        <activity
+            android:name="com.intel.realsense.librealsense.DeviceWatcherActivity"
+            android:directBootAware="true"
+            android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
-                <action android:name="com.revrobotics.controlhubupdater.broadcast.RESULT_BROADCAST" />
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
             </intent-filter>
-        </receiver>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/usb_filter" />
+        </activity>
     </application>
 
 </manifest>

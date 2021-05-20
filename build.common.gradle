@@ -139,9 +139,10 @@ repositories {
     flatDir {
         dirs rootProject.file('libs')
     }
+    jcenter()
     maven {
         url 'https://maven.0x778.tk'
     }
-    jcenter()
 }
+apply from: 'build.release.gradle'
 

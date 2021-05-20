@@ -399,6 +399,7 @@ color background_material_light
 color background_orange
 color background_very_light_grey
 color background_white
+color black
 color border_orange
 color bright_blue
 color bright_foreground_disabled_material_dark
@@ -411,6 +412,7 @@ color bright_green
 color bright_orange
 color bright_purple
 color bright_red
+color bright_red_text
 color bright_teal
 color button_material_dark
 color button_material_light
@@ -419,6 +421,7 @@ color dark_green
 color dark_orange
 color dark_purple
 color dark_red
+color dark_red_background
 color dark_teal
 color dashboardColor
 color dim_foreground_disabled_material_dark
@@ -443,6 +446,7 @@ color light_green
 color light_orange
 color light_purple
 color light_red
+color light_red_background
 color light_teal
 color line_gray
 color logviewer_bgcolor
@@ -481,6 +485,7 @@ color medium_medium_teal
 color medium_orange
 color medium_purple
 color medium_red
+color medium_red_background
 color medium_teal
 color notification_action_color_filter
 color notification_icon_bg_color
@@ -510,6 +515,8 @@ color text_warning
 color text_white
 color tooltip_background_dark
 color tooltip_background_light
+color transparent_color
+color very_bright_red
 color very_dark_blue
 color very_dark_green
 color very_dark_orange
@@ -522,6 +529,7 @@ color very_very_dark_orange
 color very_very_dark_purple
 color very_very_dark_red
 color very_very_dark_teal
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1481,7 +1489,6 @@ string connection_owner_password_default
 string continuous_servo_description
 string controlHubDisplayName
 string controlHubFirmwareUpdateMessage
-string controlHubNotAbleToCommunicateWithInternalHub
 string control_hub_module_name
 string control_hub_usb_device_name
 string controllerPortConnectionInfoFormat
@@ -1570,7 +1577,6 @@ string log_label
 string lynxAnalogInputControllerDisplayName
 string lynxDcMotorControllerDisplayName
 string lynxDigitalChannelControllerDisplayName
-string lynxFirmwareFileEmpty
 string lynxFirmwareUpdateAlreadyInProgress
 string lynxFirmwareUpdateReadme
 string lynxI2cDeviceSynchDisplayName

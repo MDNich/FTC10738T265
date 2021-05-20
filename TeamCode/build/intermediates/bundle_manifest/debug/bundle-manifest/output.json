@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.qualcomm.ftcrobotcontroller",
         "split": "",
-        "minSdkVersion": "23"
+        "minSdkVersion": "24"
       }
     }
   ]

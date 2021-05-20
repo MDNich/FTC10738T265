@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mdn/GitHub/FTC10738_marc/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "outputFile": "/Users/mdn/GitHub/FTC10738_marc_T265/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/mdn/GitHub/FTC10738_marc/FtcRobotController/build/intermediates/packaged_res/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+                    "source": "/Users/mdn/GitHub/FTC10738_marc_T265/FtcRobotController/build/intermediates/packaged_res/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

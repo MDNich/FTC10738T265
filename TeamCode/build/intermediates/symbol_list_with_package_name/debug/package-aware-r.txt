@@ -1234,6 +1234,7 @@ layout webcam_device
 menu ftc_robot_controller
 menu main_menu
 menu menu_server
+mipmap ic_launcher
 raw chimeconnect
 raw chimedisconnect
 raw color_fragment_shader
@@ -1479,7 +1480,6 @@ string connection_owner_password_default
 string continuous_servo_description
 string controlHubDisplayName
 string controlHubFirmwareUpdateMessage
-string controlHubNotAbleToCommunicateWithInternalHub
 string control_hub_module_name
 string control_hub_usb_device_name
 string controllerPortConnectionInfoFormat
@@ -1568,7 +1568,6 @@ string log_label
 string lynxAnalogInputControllerDisplayName
 string lynxDcMotorControllerDisplayName
 string lynxDigitalChannelControllerDisplayName
-string lynxFirmwareFileEmpty
 string lynxFirmwareUpdateAlreadyInProgress
 string lynxFirmwareUpdateReadme
 string lynxI2cDeviceSynchDisplayName
@@ -2411,3 +2410,4 @@ xml pushbotsens
 xml rev_scoot
 xml squarebot
 xml teamwebcamcalibrations
+xml usb_filter

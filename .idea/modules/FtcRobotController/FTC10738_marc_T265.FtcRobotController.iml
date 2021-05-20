@@ -46,9 +46,14 @@
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.nanohttpd:nanohttpd-websocket:2.3.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:Inspection:6.2.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.acmerobotics.dashboard:dashboard:0.4.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:RobotCore:6.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:Inspection:6.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:Blocks:6.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.acmerobotics.dashboard:dashboard:0.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:RobotCore:6.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:RobotServer:6.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:OnBotJava:6.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:Hardware:6.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:FtcCommon:6.1.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.2.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar" level="project" />
@@ -69,12 +74,5 @@
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.tensorflow:tensorflow-lite:1.10.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:tfod:1.0.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:Blocks:6.2.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:RobotServer:6.2.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:Hardware:6.2.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:FtcCommon:6.2.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: org.firstinspires.ftc:OnBotJava:6.2.1@aar" level="project" />
   </component>
 </module>
