@@ -9,6 +9,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.sbs.bears.ftc.robot.Robot;
 import org.sbs.bears.ftc.robot.controller.CamController;
 import org.sbs.bears.ftc.robot.controller.RRDriveControllerNoOdom;
+import org.sbs.bears.ftc.robot.controller.RRDriveControllerNoOdomCam;
 import org.sbs.bears.ftc.robot.controller.RingSubsytemController;
 import org.sbs.bears.ftc.robot.lib.ShootingModes;
 
@@ -20,7 +21,7 @@ public class LocalizationTest265 extends OpMode {
 
     //SampleMecanumDriveNoOdom drive;
     Robot theRobot;
-    RRDriveControllerNoOdom rrCtrl;
+    RRDriveControllerNoOdomCam rrCtrl;
     CamController camCtrl;
     private boolean qA;
     private boolean qB;
@@ -30,14 +31,14 @@ public class LocalizationTest265 extends OpMode {
 
     @Override
     public void init() {
-        theRobot = new Robot(hardwareMap,telemetry);
-        rrCtrl = theRobot.rrCtrlNoOdom;
-        camCtrl = new CamController(rrCtrl,hardwareMap);
+        //theRobot = new Robot(hardwareMap,telemetry);
+        rrCtrl = null;
+        camCtrl = new CamController(hardwareMap);
+        rrCtrl = new RRDriveControllerNoOdomCam(hardwareMap,telemetry,camCtrl.getCam());
         telemetry = new MultipleTelemetry(telemetry);
         msStuckDetectLoop = 50000000;
-        camCtrl.startCam();
+        camCtrl.startCam(rrCtrl);
         camCtrl.resetPosCamFromRR();
-
     }
 
     @Override
