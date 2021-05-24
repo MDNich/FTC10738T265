@@ -8,6 +8,8 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 import org.sbs.bears.ftc.robot.Robot;
 import org.sbs.bears.ftc.robot.controller.CamController;
+import org.sbs.bears.ftc.robot.controller.CamController0;
+import org.sbs.bears.ftc.robot.controller.RRDriveControllerCamOnly;
 import org.sbs.bears.ftc.robot.controller.RRDriveControllerNoOdom;
 import org.sbs.bears.ftc.robot.controller.RRDriveControllerNoOdomCam;
 import org.sbs.bears.ftc.robot.controller.RingSubsytemController;
@@ -20,9 +22,9 @@ public class LocalizationTest265 extends OpMode {
     public static double DIST = 8;
 
     //SampleMecanumDriveNoOdom drive;
-    Robot theRobot;
-    RRDriveControllerNoOdomCam rrCtrl;
-    CamController camCtrl;
+    //Robot theRobot;
+    RRDriveControllerCamOnly rrCtrl;
+    CamController0 camCtrl;
     private boolean qA;
     private boolean qB;
     private boolean qX;
@@ -33,18 +35,18 @@ public class LocalizationTest265 extends OpMode {
     public void init() {
         //theRobot = new Robot(hardwareMap,telemetry);
         rrCtrl = null;
-        camCtrl = new CamController(hardwareMap);
-        rrCtrl = new RRDriveControllerNoOdomCam(hardwareMap,telemetry,camCtrl.getCam());
+        camCtrl = new CamController0(hardwareMap);
+        rrCtrl = new RRDriveControllerCamOnly(hardwareMap,telemetry,camCtrl.getCam());
         telemetry = new MultipleTelemetry(telemetry);
         msStuckDetectLoop = 50000000;
         camCtrl.startCam(rrCtrl);
-        camCtrl.resetPosCamFromRR();
+        //camCtrl.resetPosCamFromRR();
     }
 
     @Override
     public void loop() {
         rrCtrl.doGamepadDriving(gamepad1);
-        camCtrl.setPosFromCam();
+        //camCtrl.setPosFromCam();
         rrCtrl.drive.update();
         telemetry.update();
     }

@@ -44,7 +44,7 @@ public class RRDriveControllerNoOdomCam extends RobotSubsytemManager {
         else if(rad > 0) { // turn left
             while(drive.getPoseEstimate().getHeading() < iniAngle + rad)
             {
-                drive.setWeightedDrivePower(new Pose2d(0,0,-0.3));
+                drive.setWeightedDrivePower(new Pose2d(0,0,0.3));
                 drive.update();
             }
         }
@@ -52,7 +52,7 @@ public class RRDriveControllerNoOdomCam extends RobotSubsytemManager {
         {
             while(drive.getPoseEstimate().getHeading() > iniAngle + rad)
             {
-                drive.setWeightedDrivePower(new Pose2d(0,0,0.3));
+                drive.setWeightedDrivePower(new Pose2d(0,0,-0.3));
                 drive.update();
             }
         }
