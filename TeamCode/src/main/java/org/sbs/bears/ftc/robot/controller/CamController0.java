@@ -19,12 +19,12 @@ import org.firstinspires.ftc.teamcode.util.Sleep;
 @Config
 public class CamController0 {
 
-    public static double X_Transform = 2.5;
-    public static double Y_Transform = -8.5;
+    public static double X_Transform = 0;
+    public static double Y_Transform = 0;
 
     private FtcDashboard dashboard;
 
-    SampleMecanumDriveOnlyCam drive;
+    //SampleMecanumDriveOnlyCam drive;
     final int robotRadius = 9; // inches
     private static T265Camera slamra = null;
     private double whichX;
@@ -50,7 +50,7 @@ public class CamController0 {
     }
     public void startCam(RRDriveControllerCamOnly rrDriveControllerCamOnly)
     {
-        this.drive = rrDriveControllerCamOnly.drive;
+        //this.drive = rrDriveControllerCamOnly.drive;
         try {
             slamra.start();}
         catch (Exception e)

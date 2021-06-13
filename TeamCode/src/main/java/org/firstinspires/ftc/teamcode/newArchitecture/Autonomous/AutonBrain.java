@@ -63,7 +63,7 @@ public class AutonBrain {
         robot = new Robot(hardwareMap,telemetry);
         camCtrl = new CameraController(hardwareMap,telemetry);
         armCtrl = robot.armCtrl;
-        RRctrl = robot.rrCtrlNoOdom;
+        //RRctrl = robot.rrCtrlNoOdom;
         ringCtrl = robot.ringCtrl;
         brainState = CURRENT_COMMAND.PREPARING;
         driveState = DRIVER_STATE.STOPPED;

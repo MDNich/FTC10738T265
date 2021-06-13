@@ -1,9 +1,10 @@
 package org.firstinspires.ftc.teamcode.util;
 
+import org.sbs.bears.ftc.constants.RingLaunchSetting;
+
 import java.util.HashMap;
-import java.util.Map;
 
 public interface ConstantFile {
-    public HashMap<? extends Enum, Object>  getAllConstants();
+    public HashMap<RingLaunchSetting, Object> getAllConstants();
     public void setAllConstants(HashMap<? extends Enum, Object> newData);
 }

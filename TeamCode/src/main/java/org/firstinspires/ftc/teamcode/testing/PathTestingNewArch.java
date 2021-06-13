@@ -34,7 +34,7 @@ public class PathTestingNewArch extends OpMode {
     @Override
     public void init() {
         theRobot = new Robot(hardwareMap,telemetry);
-        rrCtrl = theRobot.rrCtrlNoOdom;
+        //rrCtrl = theRobot.rrCtrlNoOdom;
         ringCtrl = theRobot.ringCtrl;
         telemetry = new MultipleTelemetry(telemetry);
         msStuckDetectLoop = 50000000;

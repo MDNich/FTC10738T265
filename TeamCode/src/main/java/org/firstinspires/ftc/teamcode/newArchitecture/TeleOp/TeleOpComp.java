@@ -1,5 +1,6 @@
 package org.firstinspires.ftc.teamcode.newArchitecture.TeleOp;
 
+import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
 import com.acmerobotics.roadrunner.geometry.Pose2d;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -8,10 +9,15 @@ import org.firstinspires.ftc.teamcode.newArchitecture.Autonomous.Positions;
 import org.sbs.bears.ftc.robot.Robot;
 import org.sbs.bears.ftc.robot.controller.ArmAndGrabberManager;
 import org.sbs.bears.ftc.robot.controller.BlockerController;
+import org.sbs.bears.ftc.robot.controller.CamController;
+import org.sbs.bears.ftc.robot.controller.CamController0;
 import org.sbs.bears.ftc.robot.controller.PIDarmController;
+import org.sbs.bears.ftc.robot.controller.RRDriveControllerCamOnly;
 import org.sbs.bears.ftc.robot.controller.RRDriveControllerNoOdom;
+import org.sbs.bears.ftc.robot.controller.RRDriveControllerNoOdomCam;
 import org.sbs.bears.ftc.robot.controller.RingSubsytemController;
 import org.sbs.bears.ftc.robot.lib.ShootingModes;
+import org.sbs.bears.ftc.util.Sleep;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,12 +27,13 @@ import java.util.Scanner;
 @TeleOp(name="TeleOp Official", group="Linear Opmode")
 public class TeleOpComp extends LinearOpMode {
 
+    RRDriveControllerNoOdomCam rrCtrl;
     Robot theRobot;
     ArmAndGrabberManager armCtrl;
-    RRDriveControllerNoOdom rrCtrl;
+    //RRDriveControllerNoOdom rrCtrl;
     RingSubsytemController ringCtrl;
     BlockerController blockerCtrl;
-
+    CamController camCtrl;
 
     PIDarmController PIDarmThread;
     private boolean pressingX;
@@ -45,25 +52,33 @@ public class TeleOpComp extends LinearOpMode {
     private boolean robotArmed;
     private boolean qRT;
     private boolean qReversed;
+    boolean angleState = false; // false = GSHot, true = PSHOT
 
 
     @Override
     public void runOpMode() throws InterruptedException {
         theRobot = new Robot(hardwareMap,telemetry);
         armCtrl = theRobot.armCtrl;
-        rrCtrl = theRobot.rrCtrlNoOdom;
+        //rrCtrl = theRobot.rrCtrlNoOdom;
         ringCtrl = theRobot.ringCtrl;
         blockerCtrl = theRobot.blockerCtrl;
         PIDarmThread = new PIDarmController(armCtrl,240);
 
+
+        ringCtrl.setAngleToTeleOpGSHOT();
+        rrCtrl = null;
+        camCtrl = new CamController(hardwareMap);
+        rrCtrl = new RRDriveControllerNoOdomCam(hardwareMap,telemetry,camCtrl.getCam());
+        telemetry = new MultipleTelemetry(telemetry);
+        msStuckDetectLoop = 50000000;
+        camCtrl.startCam(rrCtrl);
         try {
             getCurrentPosFromFile();
         } catch (FileNotFoundException e) {
             telemetry.addData("Could not read from file.","Using default position");
             rrCtrl.setCurrentPos(new Pose2d());
         }
-        ringCtrl.setAngleToTeleOpGSHOT();
-
+        camCtrl.resetPosCamFromRR();
 
         waitForStart();
         blockerCtrl.lJeffUp();
@@ -155,6 +170,15 @@ public class TeleOpComp extends LinearOpMode {
                 armCtrl.toggleClaw();
                 pressingY = false;
             }
+            if(gamepad1.b && !pressingB) {
+                pressingB = true;
+                if(angleState)
+                    ringCtrl.setAngleToTeleOpGSHOT();
+                else
+                    ringCtrl.setAngleToTeleOpGSHOT();
+            } else if (!gamepad1.b && pressingB) {
+                pressingB = false;
+            }
 
             if(gamepad1.dpad_down && !pressingDown) {
                 pressingDown = true;
@@ -173,8 +197,9 @@ public class TeleOpComp extends LinearOpMode {
                 armCtrl.armMotor.setPower(0);
 
             if(gamepad1.left_trigger > 0.3 && !qLT && pressingRightBumper){
-
+                rrCtrl.doLineToSpline(rrCtrl.getCurrentPos(),new Pose2d());
             }
+
 
             // Intense Shooter Angle Adjust - D-Pad Left + Right --------------------------------------------
             if (gamepad1.dpad_left && !pressingLeftDpad) {
@@ -199,15 +224,25 @@ public class TeleOpComp extends LinearOpMode {
             telemetry.addData("s1", ringCtrl.s1Power());
             telemetry.addData("s2", ringCtrl.s2Power());
             telemetry.update();
-
+            rrCtrl.drive.update();
+            telemetry.update();
 
 
         }
-
+        camCtrl.stopCam();
     }
 
     private void goToShootPos() {
-        rrCtrl.doLineToSpline(rrCtrl.getCurrentPos(),Positions.teleOpShootPos); // beta
+        new Thread(()->{
+
+            //robotArmed = true;
+            rrCtrl.doLineToSpline(rrCtrl.getCurrentPos(),new Pose2d(0,-30));
+            //Sleep.sleep(500);
+            //rrCtrl.doLineToSpline(rrCtrl.getCurrentPos(),new Pose2d(0,-30));}).start();
+            //ringCtrl.setRingManagementMode(ShootingModes.SHOOTING);
+            //Sleep.sleep(2000);
+            //ringCtrl.shootManyRings(3);
+        }).start();
     }
 
     private void getCurrentPosFromFile() throws FileNotFoundException {
@@ -228,4 +263,5 @@ public class TeleOpComp extends LinearOpMode {
         rrCtrl.setCurrentPos(posFromAuton);
 
     }
+
 }

@@ -54,7 +54,7 @@ public class Robot {
      * This is the RoadRunner wrapper. It allows client classes
      * to very simply use the main functions of RoadRunner without meddling with the code.
      */
-    public RRDriveControllerNoOdom rrCtrlNoOdom;
+    //public RRDriveControllerNoOdom rrCtrlNoOdom;
 
 
 
@@ -86,7 +86,7 @@ public class Robot {
         armCtrl = new ArmAndGrabberManager(hardwareMap);
         driveAngleCtrl = new DriveAngleController(hardwareMap,telemetry);
         ringCtrl = new RingSubsytemController(hardwareMap,telemetry);
-        rrCtrlNoOdom = new RRDriveControllerNoOdom(hardwareMap,telemetry);
+        //rrCtrlNoOdom = new RRDriveControllerNoOdom(hardwareMap,telemetry);
         threadCtrl = new ThreadController(hardwareMap);
         blockerCtrl = new BlockerController(hardwareMap,telemetry);
     }

@@ -19,8 +19,8 @@ import org.firstinspires.ftc.teamcode.util.Sleep;
 @Config
 public class CamController {
 
-    public static double X_Transform = 2.5;
-    public static double Y_Transform = -8.5;
+    public static double X_Transform = 0;
+    public static double Y_Transform = 0;
 
     private FtcDashboard dashboard;
 
