@@ -23,6 +23,8 @@ Marc D. Nichitiu, 10738 Bears, former Head Programmer.
 
 The main T265 interfacing class is the org.sbs.bears.robot.controller.CamController class. Use this class to instantiate control with the camera object and to access position data. An example interface with RoadRunner can be found in the org.firstinspires.teamcode.drive.T265Localizer class, where the T265 IMU and Position system provides absolute positioning of the robot in a system relative to the starting psoition.
 
+# Extra Points
+
 This code is no longer maintained.
 
 Please feel free to dm Marc on Discord at СтелелеМинунате#4075 through the ftc265 discord at https://discord.gg/eRuH7VB7yN
